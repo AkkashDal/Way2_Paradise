@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d9f0abd257.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="css/parallax.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <title>WAY 2 PARADSIE</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,900&family=Roboto+Slab:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:ital,wght@1,300;1,900&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Slab:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+       /*{
+        font-family:'Poppins', sans-serif;
+       }*/
+      .cot{
+        /*https://cdn.pixabay.com/photo/2014/01/02/10/14/beach-hut-237489_1280.jpg*/
+         background: url("https://images5.alphacoders.com/361/361643.jpg");
+         background-repeat: no-repeat;
+         height: 680px;
+         margin-top: 50px;
+         background-position: center;
+         background-size: cover;
+
+        /* background-attachment: fixed;*/
+      }
+      .na1{
+        color:white;
+        font-size: 35px;
+        font-family: "Playfair Display", serif; 
+      }
+      .na2{
+        color: white;
+        font-size: 25px;
+        font-family: "Teko", sans-serif;
+      }
+      .cot1{
+        background-color: white;
+         height: 1000px;
+      }
+
+      .name{
+        margin-top: 14px;
+        text-align: center;
+        
+      }
+      .content{
+        height: 1600px;
+        margin-top: 70px;
+        
+      }
+      .service{
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+
+      }
+
+      .package{
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+      }
+      .cards{
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        margin: 7px;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .cards:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .cards1{
+        width: 350px;
+        height: 450px;
+        background-color: white;
+        margin: 15px;
+        border-radius: 25px;
+        
+      }
+      .img{
+        width: 150px;
+        height: 150px;
+        margin-top: 15px;
+        margin-left: 51px;
+
+      }
+      .slo1{
+        text-align: center;
+        margin-bottom:  45px;
+        font-family:'Poppins', sans-serif;
+        font-weight: 400px;
+
+      }
+      .service1{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500px;
+      }
+      .to{
+        text-align: center;
+        font-family:'Poppins', sans-serif;
+        margin-bottom: 50px;
+      }
+
+      .imgrad1{
+        background: url("https://easygovacation.com/images/Goa/Goa4.jpg");
+        background-size: cover;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .imgrad1:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .imgrad2:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .imgrad3:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .imgrad4:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .imgrad5:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .imgrad6:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+
+      .imgrad2{
+        background: url("https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .imgrad3{
+        background: url("https://w0.peakpx.com/wallpaper/600/646/HD-wallpaper-maldives-resort-ocean-resorts-pier-lights-sky.jpg");
+        background-size: cover;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .imgrad4{
+        background: url("https://images4.alphacoders.com/107/1078796.jpg");
+        background-size: cover;
+        background-position: right;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .imgrad5{
+        background: url("https://wallpaperaccess.com/full/115106.jpg");
+        background-size: cover;
+        background-position: -55px;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .imgrad6{
+        background: url("https://www.bhmpics.com/downloads/bangkok-images-hd-Wallpapers/1.wat-arun-temple-in-bangkok-thailand.jpg");
+        background-size: cover;
+        height:350px;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .country1{
+        margin-left: 15px;
+        color: white;
+      }
+      .rate{
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .star{
+        margin-top: 15px;
+      }
+      .footer{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height:400px;
+        width:100%;
+      }
+      .l1{
+        color: black;
+        margin-right: auto;
+      }
+      .logo{
+        width: 50px;
+        margin: 1px;
+      }
+      .rev{
+        height: 70px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        font-family:'Poppins', sans-serif;
+      }
+      .per{
+        display: flex;
+        justify-content: space-around;
+        height:600px;
+  
+      }
+      .f1{
+        text-decoration: none;
+      }
+      .f2{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .f3{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .m1{
+        font-size: 110%;
+        font-weight: bold;
+      }
+      .cusrev{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .re1{
+        width: 400px;
+        height: 600px;
+        background-color: rgba(235, 233, 225);
+        margin: 15px;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+        
+      }
+
+      .re1:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .re2{
+        width: 400px;
+        height: 600px;
+        margin: 15px;
+        background-color: rgba(235, 233, 225);
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .re2:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+      .re3{
+        width: 400px;
+        height: 600px;
+        background-color: rgba(235, 233, 225);
+        margin: 15px;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+      }
+      .re3:hover{
+        transform: scale(1.03);
+        transition: all 0.5s ease;
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .fo1{
+        font-size: 23px;
+      }
+      .fo2{
+        font-size: 23px;
+      }
+      .fo3{
+        font-size: 23px;
+      }
+      .m1{
+        font-size: 24px;
+      }
+      .rpi{
+        height: 150px;
+        width: 150px;
+        margin: (0px,50px,0px,150px);
+        margin-top: 20px;
+        border-radius: 200px;
+        align-items: center;
+      }
+      .rp1{
+        
+        margin: 15px;
+      }
+
+      .imgcot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }.navbar-brand{
+        font-family: "Playfair Display", serif; 
+      }
+      .ren1{
+        margin-left: 10px;
+      }
+
+      @media screen and(max-width:400px){
+        .footer{
+          margin-top: 3000px;
+        }
+        .cot{
+          margin-top: 800px;
+        }
+
+        .name{
+        margin-top: 10% ;
+        text-align: center;
+        
+      }
+        
+      }
+      
+    </style>
+</head>
+<body>
+  <div class="cot">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WAY 2 PARADISE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#explore">Explore</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#bran" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Branches
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Goa</a></li>
+            <li><a class="dropdown-item" href="#">Paris</a></li>
+            <li><a class="dropdown-item" href="#">Maldives</a></li>
+            <li><a class="dropdown-item" href="#">Vietnam</a></li>
+            <li><a class="dropdown-item" href="#">Rome</a></li>
+            <li><a class="dropdown-item" href="#">Bangkok</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled active" href="#review" tabindex="-1" aria-disabled="true">Review</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="name">
+    <h3 class="na1">WAY 2 PARADISE</h3>
+    <p class="na2">Beyond Paradise, There’s Us</p>
+  </div>
+</div>
+</div>
+<div class="container">
+ <div class="content">
+  <h2 class="slo1" id="explore">Explore Our Offerings</h2>
+  <div class="service">
+    <div class="cards"> 
+      <img src="https://cdn-icons-png.flaticon.com/128/5227/5227741.png?ga=GA1.1.1258914651.1700643770&semt=ais" class="img">
+    
+    <h3 class="service1">TRAVEL</h3>
+    </div>
+    <div class="cards">
+      <img src="https://cdn-icons-png.flaticon.com/512/135/135392.png" class="img" >
+      <h3 class="service1">FOOD</h3>
+    </div>
+    <div class="cards">
+      <img src="https://cdn-icons-png.flaticon.com/512/881/881678.png" class="img">
+      <h3 class="service1">BAR</h3>
+    </div>
+    <div class="cards">
+      <img src="https://cdn-icons-png.flaticon.com/512/4490/4490674.png" class="img">
+      <h3 class="service1">SAFARI</h3>
+    </div>
+  </div>
+<h1 class="to" id="bran">Our Resorts Throughout The World!</h1>
+<div class="package">
+    <div class="cards1">
+      <div class="imgrad1">
+        <h2 class="country1">GOA</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐⭐</h3>
+      <h3 class="rate">$299</h3>
+    </div>
+    <div class="cards1">
+      <div class="imgrad2">
+        <h2 class="country1">PARIS</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐⭐⭐</h3>
+      <h3 class="rate">$499</h3>
+    </div>
+    <div class="cards1">
+      <div class="imgrad3">
+        <h2 class="country1">MALDIVES</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐⭐</h3>
+      <h3 class="rate">$649</h3>
+    </div>
+    <div class="cards1">
+      <div class="imgrad4">
+        <h2 class="country1">VIETNAM</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐</h3>
+      <h3 class="rate">$799</h3>
+    </div>
+    <div class="cards1">
+      <div class="imgrad5">
+        <h2 class="country1">ROME</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐⭐</h3>
+      <h3 class="rate">$699</h3>
+    </div>
+    <div class="cards1">
+      <div class="imgrad6">
+        <h2 class="country1">BANGKOK</h2>
+      </div>
+      <h3 class="star">⭐⭐⭐</h3>
+      <h3 class="rate">$549</h3>
+    </div>
+</div>
+<div>
+  <h1 class="rev" id="review">Customer Review</h1>
+</div>
+<div class="cusrev">
+  <div class="re1">
+    <div>
+      <div class="imgcot">
+        <img src="https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg" alt="" class="rpi">
+      </div>      <h1 class="ren1">Henry Watson</h1>
+      <p class="rp1">
+        Parisian Haven is a delightful retreat nestled in the heart of Paris, offering a perfect blend of luxury and charm. From the elegant decor to the impeccable service, every aspect of this resort exudes sophistication and comfort. The central location allows for easy access to iconic landmarks, while the tranquil ambiance provides a sanctuary away from the bustling city streets. Whether indulging in fine dining at the on-site restaurant or unwinding in the plush
+      </p>
+    </div>
+  </div>
+  <div class="re2">
+    <div>
+      <div class="imgcot">
+      <img src="https://64.media.tumblr.com/tumblr_lgj18nlljs1qevq4ko1_r1_1280.jpg" alt="" class="rpi">
+      </div>
+      <h1 class="ren1">Skylar</h1>
+      <p class="rp1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates praesentium, sapiente beatae suscipit odio ipsam aspernatur reprehenderit totam temporibus, mollitia eum, tenetur obcaecati fugiat maiores. Praesentium velit a obcaecati iusto. Impedit aliquid voluptate illo distinctio rem nostrum corporis numquam, pariatur cum libero excepturi dolores in at perspiciatis laborum molestiae animi, quibusdam iste magni explicabo assumenda. Soluta nisi vitae ad molestias!
+      </p>
+    </div>
+  </div>
+  <div class="re3">
+    <div>
+      <div class="imgcot">
+              <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" alt="" class="rpi">
+       </div>
+              <h1 class="ren1">Oliver Oslo</h1>
+      <p class="rp1">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quidem sint omnis consequatur illum officia cum eveniet, ad est obcaecati! Aut at aspernatur illum numquam architecto necessitatibus quos eos totam eaque ut officia quod adipisci harum eveniet distinctio, ipsum nostrum impedit! Laudantium delectus in iste quae, natus expedita ipsam explicabo voluptate porro incidunt cum vitae odio, eaque, consequuntur minima repellendus nam commodi reprehenderit? Nisi, ex.      </p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="fo1">  
+    <h1 class="m1">Menu Links</h1>
+    <hr class="l1">
+    <a href="#">Home</a>
+    <br>
+    <a href="#explore">Explore</a>
+    <br>
+    <a href="#bran">Our Branches</a>
+    <br>
+    <a href="#review">Review</a>
+  </div>
+  <div class="fo2">
+    <h1 class="f2">Our Service</h1>
+    <hr class="l1">
+    <h3>Travel</h3>
+    <h3>Food</h3>
+    <h3>Bar</h3>
+    <h3>Safari</h3>
+  </div>
+  <div class="fo3">
+    <h1 class="f2">Our Branches</h1>
+    <hr class="ul">
+    <h3>Goa</h3>
+    <h3>Paris</h3>
+    <h3>Maldives</h3>
+    <h3>Vietnam</h3>
+    <h3>Rome</h3>
+    <h3>Bangkok</h3>
+  </div>
+  <div>
+    <h1 class="f3">Contact Us</h1>    <img class="logo" src="https://cdn-icons-png.flaticon.com/128/747/747393.png?ga=GA1.1.1258914651.1700643770" alt="">
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png?ga=GA1.1.1258914651.1700643770" alt="">
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/128/2111/2111738.png?ga=GA1.1.1258914651.1700643770" alt="">
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/128/1384/1384088.png?ga=GA1.1.1258914651.1700643770&semt=ais" alt="">
+  </div>
+
+</div>
+
+</body>
+</html> 
